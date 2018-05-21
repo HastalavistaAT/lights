@@ -1,0 +1,4 @@
+# insert at the end of crontab
+# sudo crontab -e
+@reboot python /root/timer.py >> /root/timer.log &
+# change path to timer.py accordingly!
